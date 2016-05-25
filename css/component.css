@@ -29,7 +29,7 @@ body {
     font-size: 0.9em;
     font-weight: 300;
 		margin: 0;
-		background: #000;
+		/*background: #000;*/
 }
 
 a {
@@ -74,7 +74,7 @@ a:hover {
 	background: #FA987D;
 	background: #34495e;
 	background: #ffd738;
-	/*opacity: 0.6;*/
+	opacity: 0.6;
 }
 
 .bl-main > section:nth-child(3) {
