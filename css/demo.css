@@ -82,24 +82,11 @@ a:hover {
 	color: #777;
 }
 
-/* Background colors */
-.color-1 { background: #E8E0DA; }
-.color-2 { background: #576b67; }
-/*.color-3 { background: #383A35; }*/
+
 .color-3 { background: transparent; }
-.color-4 { background: #333; }
-.color-5 { background: #fda9a9; }
-.color-7 { background: #cde7d3; }
-.color-8 { background: #DCECDD; }
-.color-9 { background: #dedbba; }
-.color-10 { background: #222; }
-.color-11 { background: #515151; }
 
-/*body {
-  margin: 0;
-  background: #000;
-}*/
 
+/*
 video {
     position: fixed;
     top: 50%;
