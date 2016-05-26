@@ -468,9 +468,20 @@ section.bl-expand .bl-icon-close {
 .item{
 	display: block;
 }
-.fa{
-	padding-left:45%;
+.hack{
+	padding-left:35%;
 }
+
+.sch{
+	padding-left:35%;
+}
+.faq{
+	padding-left:20%;
+}
+.team{
+	padding-left:20%;
+}
+
 
 
 @media screen and (max-width: 46.5em) {
