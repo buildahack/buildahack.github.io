@@ -67,6 +67,7 @@ a:hover {
 	/*background: #F06060;*/
 	background: #2c3e50;
 	background:#00838F;
+	background: #006064;
 	opacity:0.9;
 }
 .bl-main > section:first-child:hover{
@@ -80,6 +81,7 @@ a:hover {
 	background: #34495e;
 	background: #ffd738;
 	background: #009688;
+	background: #00BCD4;
 	opacity:0.9;
 
 }
@@ -93,6 +95,7 @@ a:hover {
 	background:#34495e;
 	background: #ffd738;
 	background: #009688;
+	background: #00BCD4;
 	opacity:0.9;
 }
 .bl-main > section:nth-child(3):hover{
@@ -104,6 +107,7 @@ a:hover {
 	background: #10A296;
 	background: 	#2c3e50;
 	background:#00838F;
+	background: #006064;
 	opacity:0.9;
 }
 .bl-main > section:nth-child(4):hover{
@@ -143,6 +147,7 @@ a:hover {
 	letter-spacing: 2px;
 	font-weight: 700;
 	text-transform: uppercase;
+	/*font-family: 'Raleway', sans-serif;*/
 }
 
 .bl-icon {
