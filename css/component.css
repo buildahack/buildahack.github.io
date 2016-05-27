@@ -194,9 +194,9 @@ a:hover {
 	pointer-events: none;
 }
 
-.bl-icon-close:before {
+/*.bl-icon-close:before {
 	content: "\e005";
-}
+}*/
 
 .bl-content,
 div.bl-panel-items > div > div {
@@ -223,9 +223,10 @@ div.bl-panel-items > div > div {
 }
 
 .bl-content h2 {
-	font-size: 3em;
-	font-weight: 300;
+	font-size: 3.5em;
+	font-weight: 800;
 	margin: 0 0 20px 0;
+	line-height: 2;
 }
 /*
 .bl-content article {

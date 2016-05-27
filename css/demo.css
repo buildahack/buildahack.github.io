@@ -124,6 +124,7 @@ a:focus {
 .faq_content{
 	font-weight: bold;
 }
+
 @media only screen and (max-width: 600px)
 {
 	.col-4{
