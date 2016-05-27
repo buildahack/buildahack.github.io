@@ -95,12 +95,12 @@ a:focus {
 }
 
 .row{
-	padding:20px 0px 20px 0px;
+	padding:30px 0px 30px 0px;
 }
 
 .card{
-	margin-left: -left: 10px;
-	margin-right: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .card-title {
@@ -115,10 +115,10 @@ a:focus {
 	font-weight: 400;
 }
 .col-4{
-	width:33%;
+	width:31%;
 	display:inline-block;
 }
-@media only screen and (max-width: 450px)
+@media only screen and (max-width: 600px)
 {
 	.col-4{
 		width:100%;
@@ -126,7 +126,9 @@ a:focus {
 	}
 
 }
-
+section{
+	padding:0 !important;
+}
 /*
 video {
 position: fixed;
