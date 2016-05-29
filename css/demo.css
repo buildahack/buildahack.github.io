@@ -136,6 +136,13 @@ a:focus {
 		width: 2.5px !important;
 		background-color: #111 !important;
 	}
+	/*.no-js{
+		overflow: auto;
+
+	}
+	*{
+		overflow: auto !important;
+	}*/
 }
 section{
 	padding:0 !important;
