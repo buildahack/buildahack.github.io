@@ -60,14 +60,17 @@
 	<div id="fullpage">
 		<div class="section">
 			<div class="grid__item color-3">
-				<div>
+				<div class="main-bind">
 					<div class="logo"></div>
+					<div class="tagline"><h3>the first ever high school hackathon</h3></div>
 					<div class="title">build a hack</div>
-					<p class="p1">THE FIRST EVER <span class="hs">HIGH SCHOOL</span> HACKATHON</p>
-					<a class="link link--nukun" href="#">BUILD <span>a</span> HACK</a>
+					<!-- <p class="p1">THE FIRST EVER <span class="hs">HIGH SCHOOL</span> HACKATHON</p>
+					<a class="link link--nukun" href="#">BUILD <span>a</span> HACK</a> -->
 					<p class="head3"><span id="textdisp"></span></p>
-
 				</div>
+				<div class="background">
+				</div>
+
 			</div>
 		</div>
 
@@ -305,12 +308,12 @@
 							</div>
 							<div class="row">
 								<div class="box col-2">
-								<img src="http://placehold.it/300x150">
+									<img src="http://placehold.it/300x150">
 								</div>
 								<div class="box col-2">
 									<img src="http://placehold.it/300x150">
+								</div>
 							</div>
-						</div>
 							<div class="row">
 								<div class="box col-3-sp">
 									<img src="http://placehold.it/300x150">
@@ -341,51 +344,51 @@
 						</div>
 					</div>
 
-				<script src="js/jquery-1.11.0.js"></script>
-				<script src="js/text-autotype.js"></script>
-				<script src="js/modernizr.custom.js"></script>
-				<!-- <script src="js/bootstrap.min.js" ></script> -->
-				<script src="js/boxlayout.js"></script>
-				<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/vendors/jquery.easings.min.js"></script>
-				<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/vendors/scrolloverflow.min.js"></script>
-				<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
-				<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/jquery.fullPage.js"></script>
-				<script>
+					<script src="js/jquery-1.11.0.js"></script>
+					<script src="js/text-autotype.js"></script>
+					<script src="js/modernizr.custom.js"></script>
+					<!-- <script src="js/bootstrap.min.js" ></script> -->
+					<script src="js/boxlayout.js"></script>
+					<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/vendors/jquery.easings.min.js"></script>
+					<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/vendors/scrolloverflow.min.js"></script>
+					<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+					<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.0/jquery.fullPage.js"></script>
+					<script>
 
-				$(function() {
-					Boxlayout.init();
-				});
-				$(document).ready(function() {
-					$('#fullpage').fullpage({
-						//Scrolling
-						css3: true,
-						scrollingSpeed: 700,
-						autoScrolling: true,
-						fitToSection: true,
-						fitToSectionDelay: 1000,
-						scrollBar: false,
-						easing: 'easeInOutCubic',
-						easingcss3: 'ease',
-						loopBottom: false,
-						loopTop: false,
-						loopHorizontal: true,
-						continuousVertical: false,
-						normalScrollElements: '.bl-content',
-						scrollOverflow: true,
-						scrollOverflowOptions: null,
-						touchSensitivity: 15,
-						normalScrollElementTouchThreshold: 500,
-
-						//Accessibility
-						keyboardScrolling: true,
-						animateAnchor: true,
-						recordHistory: true,
-
-
+					$(function() {
+						Boxlayout.init();
 					});
-				});
+					$(document).ready(function() {
+						$('#fullpage').fullpage({
+							//Scrolling
+							css3: true,
+							scrollingSpeed: 700,
+							autoScrolling: true,
+							fitToSection: true,
+							fitToSectionDelay: 1000,
+							scrollBar: false,
+							easing: 'easeInOutCubic',
+							easingcss3: 'ease',
+							loopBottom: false,
+							loopTop: false,
+							loopHorizontal: true,
+							continuousVertical: false,
+							normalScrollElements: '.bl-content',
+							scrollOverflow: true,
+							scrollOverflowOptions: null,
+							touchSensitivity: 15,
+							normalScrollElementTouchThreshold: 500,
 
-				</script>
-			</body>
+							//Accessibility
+							keyboardScrolling: true,
+							animateAnchor: true,
+							recordHistory: true,
 
-			</html>
+
+						});
+					});
+
+					</script>
+				</body>
+
+				</html>
