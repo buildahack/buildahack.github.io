@@ -7,30 +7,30 @@
 
 body {
 
-	/*background: #fff;*/
+	background: #fff;
 	color: #1e1a1b;
 	font-weight: 500;
 	font-size: 1em;
 	font-family: 'Raleway', Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-image: url("../img/bg.jpg") !important;
+	/*background-image: url("../img/bg.jpg") !important;*/
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: cover;
+	/*background-size: cover;*/
 	background-position: 45% 0%;
 
 }
 /*.header {
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+display: table;
+position: relative;
+width: 100%;
+height: 100%;
+background: url(../img/bg.jpg) no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
 }*/
 
 /*
@@ -66,6 +66,16 @@ a:focus {
 }
 
 
+.logo{
+	width: 190px;
+	height: 240px;
+	margin: 8% auto 0;
+	background-image: url("http://placehold.it/190x240");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
 /* Grid */
 .grid__item {
 
@@ -94,6 +104,14 @@ a:focus {
 	font-size: 1.5em;
 	font-weight: bold;
 	color: #777;
+}
+
+.title{
+	color: #EF5D93;
+	font-size: 4em;
+	font-weight: 700;
+	margin: 3% auto 0;
+	text-transform: uppercase;
 }
 
 
@@ -194,19 +212,19 @@ img{
 }
 #style-3::-webkit-scrollbar-track
 {
--webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-background-color: #111;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #111;
 }
 
 #style-3::-webkit-scrollbar
 {
-width: 6px;
-background-color: #111;
+	width: 6px;
+	background-color: #111;
 }
 
 #style-3::-webkit-scrollbar-thumb
 {
-background-color: #F5F5F5;
+	background-color: #F5F5F5;
 }
 
 
