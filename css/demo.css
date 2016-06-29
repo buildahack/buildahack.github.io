@@ -8,7 +8,7 @@
 body {
 	/*overflow: auto !important;*/
 	background-color: #182327;
-	background-color: #191919;
+	background-color: #292249;
 	color: #1e1a1b;
 	font-weight: 500;
 	font-size: 1em;
@@ -20,6 +20,7 @@ body {
 	background-repeat: no-repeat;
 	/*background-size: cover;*/
 	background-position: 45% 0%;
+
 
 }
 section{
@@ -114,8 +115,6 @@ a:focus {
 	z-index: 1;
 	position: relative;
 	text-align: center;
-	align-items: center;
-	justify-content: center;
 	top:-30px;
 }
 
@@ -139,8 +138,7 @@ top:-50px;
 }
 
 .title{
-	color: #EF5D93;
-	color: #8e44ad;
+	color: #3498db;
 	font-size: 5.4em;
 	font-weight: 700;
 	margin: 0% auto 0;
@@ -148,8 +146,7 @@ top:-50px;
 	text-transform: uppercase;
 }
 .hs{
-	color:#EF5D93;
-	color: #8e44ad;
+	color:#3498db;
 	text-align: center;
 	font-weight: 900;
 	-webkit-text-fill-color:#8e44ad; /* Will override color (regardless of order) */

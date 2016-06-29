@@ -30,12 +30,12 @@
 //============================================================
 
 /**
- * Parallax.js
- * @author Matthew Wagerfield - @wagerfield
- * @description Creates a parallax effect between an array of layers,
- *              driving the motion from the gyroscope output of a smartdevice.
- *              If no gyroscope is available, the cursor position is used.
- */
+* Parallax.js
+* @author Matthew Wagerfield - @wagerfield
+* @description Creates a parallax effect between an array of layers,
+*              driving the motion from the gyroscope output of a smartdevice.
+*              If no gyroscope is available, the cursor position is used.
+*/
 ;(function(window, document, undefined) {
 
   // Strict Mode
@@ -202,27 +202,27 @@
     }
     switch(value) {
       case '2D':
-        featureSupport = propertySupport;
-        break;
+      featureSupport = propertySupport;
+      break;
       case '3D':
-        if (propertySupport) {
-          var body = document.body || document.createElement('body');
-          var documentElement = document.documentElement;
-          var documentOverflow = documentElement.style.overflow;
-          if (!document.body) {
-            documentElement.style.overflow = 'hidden';
-            documentElement.appendChild(body);
-            body.style.overflow = 'hidden';
-            body.style.background = '';
-          }
-          body.appendChild(element);
-          element.style[jsProperty] = 'translate3d(1px,1px,1px)';
-          propertyValue = window.getComputedStyle(element).getPropertyValue(cssProperty);
-          featureSupport = propertyValue !== undefined && propertyValue.length > 0 && propertyValue !== 'none';
-          documentElement.style.overflow = documentOverflow;
-          body.removeChild(element);
+      if (propertySupport) {
+        var body = document.body || document.createElement('body');
+        var documentElement = document.documentElement;
+        var documentOverflow = documentElement.style.overflow;
+        if (!document.body) {
+          documentElement.style.overflow = 'hidden';
+          documentElement.appendChild(body);
+          body.style.overflow = 'hidden';
+          body.style.background = '';
         }
-        break;
+        body.appendChild(element);
+        element.style[jsProperty] = 'translate3d(1px,1px,1px)';
+        propertyValue = window.getComputedStyle(element).getPropertyValue(cssProperty);
+        featureSupport = propertyValue !== undefined && propertyValue.length > 0 && propertyValue !== 'none';
+        documentElement.style.overflow = documentOverflow;
+        body.removeChild(element);
+      }
+      break;
     }
     return featureSupport;
   };
@@ -273,9 +273,11 @@
       var layer = this.layers[i];
       if (this.transform3DSupport) this.accelerate(layer);
       layer.style.position = i ? 'absolute' : 'relative';
+      layer.style.padding= 0 ;
       // layer.style.display = 'block';
       // layer.style.left = 0;
       // layer.style.top = 0;
+
 
       // Cache Layer Depth
       this.depths.push(this.data(layer, 'depth') || 0);
@@ -529,11 +531,11 @@
 })(window, document);
 
 /**
- * Request Animation Frame Polyfill.
- * @author Tino Zijdel
- * @author Paul Irish
- * @see https://gist.github.com/paulirish/1579671
- */
+* Request Animation Frame Polyfill.
+* @author Tino Zijdel
+* @author Paul Irish
+* @see https://gist.github.com/paulirish/1579671
+*/
 ;(function() {
 
   var lastTime = 0;
@@ -549,7 +551,7 @@
       var currTime = new Date().getTime();
       var timeToCall = Math.max(0, 16 - (currTime - lastTime));
       var id = window.setTimeout(function() { callback(currTime + timeToCall); },
-        timeToCall);
+      timeToCall);
       lastTime = currTime + timeToCall;
       return id;
     };
