@@ -101,10 +101,10 @@
 }
 
 .hs{
-	color:#ffd738;
+	color:#EF5D93;
 	text-align: center;
 	font-weight: 900;
-	-webkit-text-fill-color:#ffd738; /* Will override color (regardless of order) */
+	-webkit-text-fill-color:#EF5D93; /* Will override color (regardless of order) */
    -webkit-text-stroke-width: 0.1px;
    -webkit-text-stroke-color: black;
 
@@ -125,6 +125,7 @@
 	font-size: 1.4em;
 	padding-left:5px;
 	color:white;
+	font-weight: 700;
 	/*font-family: 'Bangers', cursive;*/
 	font-family: 'Raleway', Arial, sans-serif;
 
