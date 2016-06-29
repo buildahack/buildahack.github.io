@@ -8,7 +8,7 @@
 body {
 	/*overflow: auto !important;*/
 	background-color: #182327;
-	background-color: black;
+	background-color: #191919;
 	color: #1e1a1b;
 	font-weight: 500;
 	font-size: 1em;
@@ -28,9 +28,9 @@ section{
 }
 li{
 	list-style:none;
-	 background-image:none;
-	 background-repeat:none;
-	 background-position:0;
+	background-image:none;
+	background-repeat:none;
+	background-position:0;
 }
 /*.header {
 display: table;
@@ -114,7 +114,9 @@ a:focus {
 	z-index: 1;
 	position: relative;
 	text-align: center;
-	top:-20px;
+	align-items: center;
+	justify-content: center;
+	top:-30px;
 }
 
 .grid__item p {
@@ -131,7 +133,9 @@ top:-50px;
 	color: white;
 	font-weight: 700;
 	margin: 3% auto 0;
+	margin-top: 0px;
 	text-transform: uppercase;
+
 }
 
 .title{
@@ -155,7 +159,25 @@ top:-50px;
 }
 
 
-
+.register{
+	height: 40px;
+	width:150px;
+	margin-top: 9px;
+	background-color: #c0392b;
+	position: absolute;
+	left:45%;
+	color:black;
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	transition: all 0.2s ease;
+}
+.register:hover{
+	transform: translateY(-7px);
+}
 
 .background{
 	position: absolute;
