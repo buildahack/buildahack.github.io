@@ -9,6 +9,7 @@ body {
 	/*overflow: auto !important;*/
 	background-color: #182327;
 	background-color: #292249;
+x
 	color: #1e1a1b;
 	font-weight: 500;
 	font-size: 1em;
@@ -116,7 +117,7 @@ a:focus {
 
 .register{
 	position: absolute;
-	left:50%;
+	left:50% !important;
 	margin-left: -75px !important;
 
 }
@@ -235,12 +236,16 @@ a:focus {
 		width:100%;
 		display:inline-block;
 	}
-	#style-3::-webkit-scrollbar
+	#style-3-faq::-webkit-scrollbar
 	{
 		width: 2.5px !important;
 		background-color: #111 !important;
 	}
-
+	#style-3-shd::-webkit-scrollbar
+	{
+		width: 2.5px !important;
+		background-color: #2980b9 !important;
+	}
 }
 
 
@@ -282,19 +287,36 @@ img{
 	width:100%;
 	heigth:auto;
 }
-#style-3::-webkit-scrollbar-track
+#style-3-faq::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	background-color: #111;
 }
 
-#style-3::-webkit-scrollbar
+#style-3-faq::-webkit-scrollbar
 {
 	width: 6px;
 	background-color: #111;
 }
 
-#style-3::-webkit-scrollbar-thumb
+#style-3-faq::-webkit-scrollbar-thumb
+{
+	background-color: #F5F5F5;
+}
+
+#style-3-shd::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #2980b9;
+}
+
+#style-3-shd::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #2980b9;
+}
+
+#style-3-shd::-webkit-scrollbar-thumb
 {
 	background-color: #F5F5F5;
 }
